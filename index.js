@@ -18,7 +18,7 @@ app.use("/user", userRouter);
 
 
 
-const CONNECTION_URL = ' mongodb+srv://memories:memories123@memories.yvt5k.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const CONNECTION_URL = 'mongodb+srv://memories:memories123@memories.yvt5k.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
